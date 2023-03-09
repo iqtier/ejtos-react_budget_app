@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.exp-btn{
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.plus-btn {
+  background-color: green;
+}
+
+
+.plus-btn:hover {
+  background-color: darkgreen;
+}
+
+.minus-btn {
+  background-color:red;
+}
+
+.minus-btn:hover{
+  background-color: darkred;
+}
+.exp-btn span {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-55%);
+  font-weight: bold ;
+}
