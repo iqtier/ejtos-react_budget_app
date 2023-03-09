@@ -1,4 +1,4 @@
-import React, { useState, useSelector, useContext } from "react";
+import React, {  useContext } from "react";
 import { AppContext } from "../context/AppContext";
 
 const Currency = () => {
